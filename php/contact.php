@@ -51,7 +51,7 @@ if(get_magic_quotes_gpc()) {
             // Example $your_email_address = "joe.doe@yourdomain.com";
 
             //$your_email_address = "example@themeforest.net";
-            $your_email_address = "desmon.stanford@gmail.com";
+            $your_email_address = "enter_your_email_address";
 
 
             // Configuration option.
@@ -84,7 +84,7 @@ if(get_magic_quotes_gpc()) {
                 // Email has sent successfully, echo a success page.                    
                // show a message of success and provide a true success variable
                 $data['success'] = true;
-                $data['message'] = "Thank you <strong>$name</strong>, your message has been submitted.";                   
+                $data['message'] = "Thank you <strong>$name</strong>, your message has been submitted to us.";                   
 
             } else {
 
